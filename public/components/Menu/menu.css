@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 25px;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    
+
+}
+
+input{
+    height: 36px;
+    width: 200px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 35px;
+    margin: 12px;
+}

@@ -1,0 +1,71 @@
+section {
+    background-color: white;
+    width: 350px;
+    border: 1px rgb(192, 192, 192) solid;
+    padding: 32px;
+    box-sizing: border-box;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: rgb(112, 112, 112);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+
+img {
+    width: 175px;
+    margin: 0 auto;
+    display: block;
+}
+
+button{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+p{
+   
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+button[type="account"] {
+
+    background-color: rgb(68, 162, 255);
+    color: white;
+    border: none;
+    width: 100%;
+    display: block;
+    height: 38px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+button:hover[type="account"] {
+    background-color: rgb(22, 121, 219);
+
+}
+
+.log-img{
+
+    width: 290px;
+
+}
+
+.app-img{
+    position: relative;
+    width: 300px;
+    top: 780px;
+    
+}

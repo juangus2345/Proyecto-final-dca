@@ -1,0 +1,12 @@
+.imagen{
+    width: 50px;
+    margin: 10px auto;
+    display: block;
+}
+
+.username{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    
+}

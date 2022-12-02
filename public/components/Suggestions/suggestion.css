@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  height: 50px;
+  margin: 15px;
+}
+
+p {
+  margin: 5px;
+}
+
+.followers {
+  font-size: 13px;
+  font-weight: 200 !important;
+  color: rgb(100, 100, 100);
+}
+section > div {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}

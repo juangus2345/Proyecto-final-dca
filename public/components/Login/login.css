@@ -1,0 +1,60 @@
+div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.side-img {
+  margin: 0;
+  width: 500px;
+}
+
+section {
+  background-color: white;
+  width: 350px;
+  border: 1px rgb(192, 192, 192) solid;
+  padding: 32px;
+  position: absolute;
+}
+
+img {
+  width: 175px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+button {
+  width: 100%;
+}
+
+.facebook-img {
+  width: 280px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="account"] {
+  background-color: rgb(68, 162, 255);
+  color: white;
+  border: none;
+  width: 100%;
+  display: block;
+  height: 38px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover[type="account"] {
+  background-color: rgb(22, 121, 219);
+}
+
+.bottom-img {
+  position: absolute;
+  width: 900px;
+  top: 820px;
+}
